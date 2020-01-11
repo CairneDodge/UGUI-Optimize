@@ -15,7 +15,8 @@
 ```
 # 样例解析
 ### 先按照层叠顺序处理，图A处理后和图B相同
-
+![A.png](https://github.com/Cairneqi/UGUI-Optimize/blob/master/A.png)
+![B.png](https://github.com/Cairneqi/UGUI-Optimize/blob/master/B.png)
 ### 然后计算层级号如图B所示，按层级号依次渲染
 1. Drawcall-1 ：0层级（I-B，I-G，I-I）(测试是Image先渲染)
 2. Drawcall-2 ：0层级（T-A，T-D）
